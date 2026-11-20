@@ -1,9 +1,9 @@
 # Hebrew/Aramaic Lexicon Mapping Process (`BDB`, `CHALOT`, `HALOT`) — Zero Strong's Dependency
 
-This document describes the complete, Strong's-independent pipeline used to map all **9,236** Hebrew/Aramaic `E...` entries in [Morphology.lexicon](file:///home/eliran/dev/OpenHebrewBible/data/Morphology.lexicon) and all **426,581** Hebrew/Aramaic word occurrences in [morphology.sqlite](file:///home/eliran/dev/OpenHebrewBible/data/morphology.sqlite) to their corresponding entries in:
-- [BDBE_original.tsv](file:///home/eliran/dev/OpenHebrewBible/lexicon_mapping/BDBE_original.tsv) (`9,514` entries: `BDB1`–`BDB9514`)
-- [CHALOT_original.tsv](file:///home/eliran/dev/OpenHebrewBible/lexicon_mapping/CHALOT_original.tsv) (`9,067` entries: `CHALOT1`–`CHALOT9067`)
-- [HALOT_original.tsv](file:///home/eliran/dev/OpenHebrewBible/lexicon_mapping/HALOT_original.tsv) (`9,286` entries: `HALOT1`–`HALOT9286`)
+This document describes the complete, Strong's-independent pipeline used to map all **9,236** Hebrew/Aramaic `E...` entries in [Morphology.lexicon](data/Morphology.lexicon) and all **426,581** Hebrew/Aramaic word occurrences in `morphology.sqlite` to their corresponding entries in:
+- `BDBE_original.tsv` (`9,514` entries: `BDB1`–`BDB9514`)
+- `CHALOT_original.tsv` (`9,067` entries: `CHALOT1`–`CHALOT9067`)
+- `HALOT_original.tsv` (`9,286` entries: `HALOT1`–`HALOT9286`)
 
 ---
 
@@ -67,7 +67,7 @@ For lemmas with ≥ 4 consonants still unmatched (typically OCR/source typos or 
 
 ### Stage 6: Attested `Word` Form & Verse-Reference Lookup (`100.00%`)
 For the final `26` (`BDB`), `7` (`CHALOT`), and `6` (`HALOT`) entries—mostly 2-edit morphological/vowel differences (`אַשְׁמֹרֶת` → `אַשְׁמוּרָה`, `תַּעֲרוּבֹות` → `תַּעֲרֻבָה`, `אֲדַרְכֹּון` → `אֲדַרְכֹנִים`), weak/inflected roots (`יָלַהּ` → `תָּלָה`, `זחח` → `זוח`, `יסך` → `סוךְ`, `ישׁם` → `שׁמם`, `ישׂם` → `שׂים`), Aramaic emphatic endings (`שׁוּשַׁנְכָי` → `שׁוּשַׁנְכָיֵא`, `נֶבְרְשָׁה` → `נֶבְרַשְׁתָּא`), or split compounds (`הַחִירֹות` → `פִּי הַחִירֹת`, `פִּיָּה` → `יְפֵיפִיָּה`):
-- Queried [morphology.sqlite](file:///home/eliran/dev/OpenHebrewBible/data/morphology.sqlite) for each `E...` entry's attested biblical `Word` and `Book Chapter:Verse` (`<BHS>` ref in TSV `content`).
+- Queried `morphology.sqlite` for each `E...` entry's attested biblical `Word` and `Book Chapter:Verse` (`<BHS>` ref in TSV `content`).
 - Matched the exact lexicon entry discussing that verse/form and recorded the mapping in `Mapping`, then re-synced `morphology.sqlite`.
 
 ### Stage 7: Post-Mapping Audit, Disambiguation & Normalization

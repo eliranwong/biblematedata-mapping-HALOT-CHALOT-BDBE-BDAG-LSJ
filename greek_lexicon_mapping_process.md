@@ -1,8 +1,8 @@
 # Greek Lexicon Mapping Process (`BDAG`, `LSJ`) — Zero Strong's Dependency
 
-This document describes the complete, Strong's-independent pipeline used to map all **5,399** Greek `G...` entries in [Morphology.lexicon](file:///home/eliran/dev/OpenHebrewBible/data/Morphology.lexicon) and all **138,013** Greek word occurrences in [morphology.sqlite](file:///home/eliran/dev/OpenHebrewBible/data/morphology.sqlite) to their corresponding entries in:
-- [BDAG_original.tsv](file:///home/eliran/dev/OpenHebrewBible/lexicon_mapping/BDAG_original.tsv) (`8,256` entries: `BDAG1`–`BDAG8256`)
-- [LSJ_original.tsv](file:///home/eliran/dev/OpenHebrewBible/lexicon_mapping/LSJ_original.tsv) (`140,969` entries: `LSJ1`–`LSJ140969`)
+This document describes the complete, Strong's-independent pipeline used to map all **5,399** Greek `G...` entries in [Morphology.lexicon](data/Morphology.lexicon) and all **138,013** Greek word occurrences in `morphology.sqlite` to their corresponding entries in:
+- `BDAG_original.tsv` (`8,256` entries: `BDAG1`–`BDAG8256`)
+- `LSJ_original.tsv` (`140,969` entries: `LSJ1`–`LSJ140969`)
 
 ---
 
