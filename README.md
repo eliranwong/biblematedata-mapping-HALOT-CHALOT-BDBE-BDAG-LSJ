@@ -14,6 +14,12 @@ The underlying Hebrew/Aramaic and Greek biblical materials are built on two open
 - [OpenHebrewBible](https://github.com/eliranwong/OpenHebrewBible)
 - [OpenGNT](https://github.com/eliranwong/OpenGNT)
 
+### Example Use Case: Lexicon Lookup
+
+Developers can use these mappings to link morphological word occurrences directly to multiple standard lexicons (e.g., **BDBE**, **CHALOT**, **HALOT**, **BDAG**, **LSJ**) in a unified lexicon lookup interface:
+
+<img width="2420" height="1366" alt="lexicon_lookup" src="https://github.com/user-attachments/assets/38bda3a8-d34a-4969-ad06-80171607c4bb" />
+
 ---
 
 ## Repository Structure
