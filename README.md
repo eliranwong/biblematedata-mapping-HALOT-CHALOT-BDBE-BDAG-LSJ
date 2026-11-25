@@ -6,7 +6,7 @@ Headword and Extended Strong's (`eStrong`) mappings linking **BDBE**, **CHALOT**
 
 This dataset extends [BibleMateData](https://github.com/eliranwong/biblematedata), which is part of the broader [BibleMate AI](https://github.com/eliranwong/biblemate) ecosystem, and is designed to work alongside:
 
-- [BibleMate Web](https://github.com/eliranwong/biblemateweb) ([Web Demo](https://web.biblemate.ai))
+- [BibleMate Web](https://github.com/eliranwong/biblemateweb) ([Web Demo](https://app.biblemate.ai))
 - [BibleMate Agentic Workspace](https://github.com/eliranwong/biblemate-agentic-workspace)
 
 The underlying Hebrew/Aramaic and Greek biblical materials are built on two open-source projects:
